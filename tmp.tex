@@ -1,0 +1,62 @@
+\documentclass[uplatex]{jarticle}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{bm}
+\usepackage{braket}
+
+  \def\theequation{\thesection.\arabic{equation}}
+  \makeatletter
+  \@addtoreset{equation}{section}
+  \makeatother
+
+%定理環境など
+\newtheorem{dfn}{Definition}
+\newtheorem{prop}{Proposition}
+\newtheorem{thm}{Theorem}
+\newtheorem{lem}{Lemma}
+\newtheorem{pos}{Postulate}
+\newtheorem{ex}{Example}
+\newtheorem{prob}{Problem}
+
+\newcommand{\prf}{\paragraph{Proof.}}
+\newcommand{\rem}{\paragraph{Remark.}}
+\newcommand{\sol}{\paragraph{Solution.}}
+
+%数学記号
+%\newcommand{\set}[1]{\{ #1\}}
+\newcommand{\diff}{\mathrm{d}}
+\newcommand{\bracket}[1]{\Bigl( #1\Bigr)}
+\newcommand{\bigbrac}[1]{\Bigl[ #1\Bigr]}
+
+\newcommand{\for}{\mathrm{for}}
+\newcommand{\as}{\mathrm{as}}
+\newcommand{\st}{\mathrm{s.t.}}
+
+\newcommand{\bR}{\mathbb{R}}
+\newcommand{\bC}{\mathbb{C}}
+\newcommand{\bN}{\mathbb{N}}
+
+%物理の記号
+%\newcommand{\ket}[1]{\left| #1 \right \rangle}
+%\newcommand{\bra}[1]{\left \langle #1 \right|}
+\newcommand{\inpro}[2]{\langle #1 \ket{#2}}
+\newcommand{\mean}[1]{\langle #1\rangle}
+\newcommand{\Bigmean}[1]{\Bigl \langle #1\Bigr \rangle}
+
+\newcommand{\tr}{\mathrm{tr}}
+\newcommand{\Hil}{\mathcal{H}}
+\newcommand{\Fock}{\mathcal{F}}
+
+%人名
+\newcommand{\sch}{Schor\"{o}dionger}
+
+%その他
+\newcommand{\vep}{\varepsilon}
+
+
+\begin{document}
+
+$\set{a},\bra{\psi}, \ket{\psi},\braket{x,y}$
+
+
+\end{document}
